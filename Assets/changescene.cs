@@ -20,10 +20,10 @@ public class changescene : MonoBehaviour
     }
 
 
-    public void Change()
-    {
+   // public void Change()
+   // {
        
-     SceneManager.LoadScene(1);
+    // SceneManager.LoadScene(1);
         
-    }
+   // }
 }
