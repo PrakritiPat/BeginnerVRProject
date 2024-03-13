@@ -159,6 +159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: orange
       objectReference: {fileID: 0}
+    - target: {fileID: 4490190314270504941, guid: 6ead63d1f3901f44f940a648117b53cc, type: 3}
+      propertyPath: m_TagString
+      value: slash
+      objectReference: {fileID: 0}
     - target: {fileID: 7068430050276153965, guid: 6ead63d1f3901f44f940a648117b53cc, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

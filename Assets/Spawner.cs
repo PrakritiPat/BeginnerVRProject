@@ -10,22 +10,22 @@ public class Spawner : MonoBehaviour
     public GameObject[] fruitPrefabs; // an array of the fruits 
 
     //the timing it range to spawn a new fruit
-    public float minSpawnDelay = 0.75f;
-    public float maxSpawnDelay = 3f;
+    public float minSpawnDelay = 5f;
+    public float maxSpawnDelay = 7f;
 
 
     //the angle of how the fruits spawn
-    public float minAngle = -15f;
-    public float maxAngle = 15f;
+    public float minAngle = -7f;
+    public float maxAngle = 7f;
 
 
 
     //how forcefully the fruits spawn into the scene
-    public float minForce = 12f;
-    public float maxForce = 16f;
+    public float minForce = 1f;
+    public float maxForce = 3f;
 
     //how long the fruit stays up
-    public float maxLifetime = 5f;
+    public float maxLifetime = 10f;
 
 
     private void Awake()

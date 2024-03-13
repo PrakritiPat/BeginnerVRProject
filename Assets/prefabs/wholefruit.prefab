@@ -116,8 +116,9 @@ GameObject:
   - component: {fileID: 3092633713360800617}
   - component: {fileID: 3263428789753154602}
   - component: {fileID: 5832989850841130985}
+  - component: {fileID: -8025455425879428277}
   m_Layer: 0
-  m_Name: fruit
+  m_Name: wholefruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,3 +188,15 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.81
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-8025455425879428277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4490190314270504941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783f86d884284af488634865e04a87c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
