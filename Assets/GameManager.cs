@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     {
         score++;
         scoreText.text = score.ToString();
-        if(score == 10)
+        if(score ==10)
         {
             SceneManager.LoadScene(1);
         }
